@@ -1,0 +1,21 @@
+.nav-list__item {
+    margin-right: 61px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.nav-list__link {
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+
+    &:hover {
+        text-decoration: none;
+        color: #010101;
+    }
+}
+

@@ -1,0 +1,14 @@
+.section-2__offer {
+    margin-top: 118px;
+    margin-bottom: 91px;
+}
+
+.section-2__desc {
+    width: 60%;
+}
+
+@media screen and (max-width: 991.98px) {
+    .section-2__desc {
+        width: 80%;
+    }
+}

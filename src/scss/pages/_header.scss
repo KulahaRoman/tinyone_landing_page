@@ -1,0 +1,64 @@
+.header__offer {
+    margin-top: 134px;
+}
+
+.header__platforms {
+    margin-top: 39px;
+}
+
+.header__ipad {
+    margin-top: 61px;
+    margin-bottom: 107px;
+}
+
+.ipad__icon {
+    background: url("/../img/fingerprint_yellow.png") center no-repeat;
+    background-size: cover;
+}
+
+.ipad__name {
+    user-select: none;
+    color: #fcdb00;
+}
+
+@media screen and (max-width: 300px) {
+    .brand__name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .nav-list__item {
+        margin: 10px 0;
+
+        &:first-child {
+            margin-top: 25px;
+        }
+    }
+
+    .nav-list__link {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .header__offer {
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .header__title {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header__desc {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header__text {
+        justify-content: center;
+        text-align: center;
+    }
+}

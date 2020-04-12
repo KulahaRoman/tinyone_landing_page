@@ -1,0 +1,35 @@
+.section-3__offer {
+    margin-top: 96px;
+}
+
+.section-3__title {
+    color: #fcdb00;
+}
+
+.section-3__desc {
+    color: #898989;
+}
+
+.section-3__form {
+    width: 100%;
+}
+
+.section-3__mail-field {
+    width: 75%;
+}
+
+.section-3__send-btn {
+    width: 18%;
+}
+
+@media screen and (max-width: 991.98px) {
+    .section-3__mail-field {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .section-3__send-btn {
+        width: 100%;
+    }
+}

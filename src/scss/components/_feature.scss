@@ -1,0 +1,32 @@
+.feature {
+    display: flex;
+    margin-bottom: 87px;
+}
+
+.feature__icon {
+    margin-right: 25px;
+    color: #010101;
+}
+
+.feature__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature__title {
+    margin-bottom: 15px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.feature__text {
+    width: 90%;
+    color: #898989;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}

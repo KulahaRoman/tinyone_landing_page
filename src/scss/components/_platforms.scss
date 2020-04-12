@@ -1,0 +1,21 @@
+.platforms {
+    display: flex;
+    align-items: center;
+}
+
+.platforms__item {
+    color: #010101;
+    margin-right: 38px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        outline: 0;
+        color: #010101;
+        text-decoration: none;
+    }
+}

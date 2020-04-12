@@ -1,0 +1,14 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    background-color: #fcdb00;
+}
+
+.btn-burger {
+    &:active,
+    &:focus {
+        outline: 0;
+    }
+}

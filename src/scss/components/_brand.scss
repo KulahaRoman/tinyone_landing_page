@@ -1,0 +1,22 @@
+.brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand__icon {
+    width: 43px;
+    height: 43px;
+    margin-right: 9px;
+    background: url("/../img/fingerprint.png") center no-repeat;
+    background-size: cover;
+}
+
+.brand__name {
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+}

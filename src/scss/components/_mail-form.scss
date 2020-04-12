@@ -1,0 +1,39 @@
+.mail-form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.mail-form__mail-field {
+    width: 580px;
+    height: 50px;
+    padding-left: 24px;
+    border: 0;
+    margin-right: 21px;
+    border-radius: 5px;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    &::placeholder {
+        color: #898989;
+    }
+}
+
+.mail-form__send-btn {
+    width: 126px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fcdb00;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
